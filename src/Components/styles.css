@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+
+.img{
+    height: 170px;
+    width: 300px;
+
+}
+
+.list{
+    padding: 10px;
+}
+
+.info{
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
